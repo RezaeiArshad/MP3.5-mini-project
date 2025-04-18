@@ -1,0 +1,43 @@
+#player {
+    width: 35%;
+    height: 35vh;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 10vh auto 10vh auto;
+    padding: 3vh;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#player img {
+    box-shadow: 0 0 8px 2px gray;
+    object-fit: cover;
+    display: inline;
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#button-div {
+    width: 55%;
+    margin-left: 10%;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#button-div svg {
+    width: 15%;
+    height: auto;
+    fill: white;
+    stroke: white;
+    transition: all 0.2s ease;
+}
+
+#button-div svg:hover {
+    fill: red;
+    stroke: red;
+    transform: scale(1.1);
+}

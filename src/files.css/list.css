@@ -1,0 +1,46 @@
+#song-container {
+    width: 80%;
+    height: 60vh;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5%;
+}
+
+.song {
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10%;
+    position: relative;
+}
+
+.song img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.song-play-button {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.song-play-button svg {
+    fill: white;
+    width: 20%;
+    height: auto;
+    margin-left: 40%;
+    margin-top: 40%;
+}
+
+.song-play-button svg:hover {
+    fill: red;
+}
